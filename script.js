@@ -7,7 +7,7 @@ const allEvents = [
     { name: "Ekadasha Rudrabhishekam", date: "23 Feb 2025", year: "2025", month: "February", link: "https://photos.app.goo.gl/5JqQ6PhmQ9jco3qu9"},
     { name: "Gayatri Havan of Bhagwan’s Centenary Year Celebrations held at residence of Smt Indira Gone Garu", date: "22 Feb 2025", year: "2025", month: "February", link: "https://photos.app.goo.gl/jtH9Ng4vtfBimXEeA"},
     { name: "Residential Bhajans of Bhagwan’s Centenary Year Celebrations held at Balvikas child – Sriyan Siripuram", date: "16 Feb 2025", year: "2025", month: "February", link: "https://photos.app.goo.gl/4vF6YofH6ZTvhFH78"},
-    { name: "Narayan Seva", date: "15 Feb 2025", year: "2025", month: "February", link: "https://photos.app.goo.gl/1MbPTnCDHJCtcAGh6"},
+    { name: "Narayan Seva", date: "18 Jan 2025", year: "2025", month: "February", link: "https://photos.app.goo.gl/1MbPTnCDHJCtcAGh6"},
     { name: "Gayatri Havan of Bhagwan’s Centenary Year Celebrations held at the residence of Shri Pothu Sudarshan Garu", date: "13 Jan 2025", year: "2025", month: "January", link: "https://photos.app.goo.gl/AHZgPBvEhop9j79n7"}
 ];
 
