@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Event List</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+</head>
+<body>
+    <div class="container">
+        <div class="sidebar">
+        <img src="https://content.sssmediacentre.org/gallery/birthday/100th_Birthday_Logo_Light_Web.png" alt="Logo or Image">
+            <p>|| Om Sri Sai Ram ||</p>
+            <h3>Worli Sai Family</h3>
+            <ul class="sidebar-event-list">
+                <li><strong>06 Apr:</strong> Rama Nama Japam + Weekly Bhajan</li>
+                <li><strong>13 Apr:</strong> Sai Ashottara Shata Namavali + Weekly Bhajan</li>
+                <li><strong>20 Apr:</strong> Vedam Chanting + Weekly Bhajan</li>
+                <li><strong>24 Apr:</strong> Nagarsankirtan</li>
+                <li><strong>27 Apr:</strong> Sri Hanuman Chalisa Chanting + Weekly Bhajan</li>
+            </ul>
+        </div>
+        <div class="content" id="eventDisplay">
+            <div class="search-filter">
+                <input type="text" id="searchEvent" placeholder="Search event..." onkeyup="filterEvents()">
+                <select id="filterYear" onchange="filterEvents()">
+                    <option value="">All</option>
+                    <option value="2023">2023</option>
+                    <option value="2024">2024</option>
+                    <option value="2025">2025</option>
+                </select>
+                <select id="filterMonth" onchange="filterEvents()">
+                    <option value="">All</option>
+                    <option value="January">January</option>
+                    <option value="February">February</option>
+                    <option value="March">March</option>
+                    <option value="April">April</option>
+                    <option value="May">May</option>
+                    <option value="June">June</option>
+                    <option value="July">July</option>
+                    <option value="August">August</option>
+                    <option value="September">September</option>
+                    <option value="October">October</option>
+                    <option value="November">November</option>
+                    <option value="December">December</option>
+                </select>
+                <button onclick="clearFilters()">Clear Filter</button>
+            </div>
+            <div id="eventsContainer">
+                <h2>Welcome! Select a year to view events.</h2>
+            </div>
+        </div>
+    </div>
+    <div class="footer">
+        <p>&copy; 2025 Worli Sai Family. All Rights Reserved.</p>
+    </div>
+</body>
+</html>

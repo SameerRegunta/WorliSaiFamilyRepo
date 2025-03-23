@@ -1,0 +1,177 @@
+/* General styles */
+body {
+    display: flex;
+    flex-direction: column;
+    font-family: Arial, sans-serif;
+    margin: 0;
+}
+
+.container {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+}
+
+/* Sidebar styles */
+.sidebar {
+    width: 20%;
+    background: #333;
+    color: white;
+    padding: 20px;
+    height: 100vh;
+    box-sizing: border-box;
+    border-right: 3px solid #555;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.sidebar img {
+    width: 80%;
+    border-radius: 10px;
+    margin-bottom: 15px;
+}
+
+.sidebar a {
+    display: block;
+    color: white;
+    text-decoration: none;
+    padding: 10px;
+    margin: 5px 0;
+    background: #444;
+    border-radius: 5px;
+    text-align: center;
+    width: 100%;
+}
+
+.sidebar a:hover {
+    background: #555;
+}
+
+/* Content section */
+.content {
+    width: 80%;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+/* Search filter */
+.search-filter {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-bottom: 15px;
+}
+
+.search-filter input, .search-filter select {
+    margin: 5px;
+    padding: 10px;
+    flex: 1;
+}
+
+.event {
+    background: #f4f4f4;
+    padding: 5px;
+    margin: 10px 0;
+    border-radius: 5px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.event-date {
+    font-weight: normal;
+    text-align: left;
+    min-width: 100px;
+    margin-left: 10px; /* Adds spacing between name and date */
+}
+
+.sidebar-event-list {
+    list-style-type: none;
+    padding: 0;
+    margin-top: 15px;
+    width: 100%;
+    text-align: center;
+}
+
+.sidebar-event-list li {
+    background: #444;
+    color: white;
+    padding: 8px;
+    margin: 5px 0;
+    border-radius: 5px;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.sidebar-event-list li:hover {
+    background: #555;
+}
+
+@media (max-width: 768px) {
+    .container {
+        flex-direction: column;
+    }
+
+    /* Sidebar improvements for small screens */
+    .sidebar {
+        width: 100%;
+        height: auto;
+        border-right: none;
+        border-bottom: 3px solid #555;
+        padding: 15px;
+        text-align: center;
+    }
+
+    /* Adjust logo size for small screens */
+    .sidebar img {
+        width: 50%; /* Reduces size for better fit */
+        max-width: 150px; /* Ensures it doesn’t become too large */
+        margin-bottom: 10px;
+    }
+
+    /* Sidebar table should be full width and readable */
+    .sidebar-table {
+        width: 90%;
+        margin: 10px auto;
+        font-size: 14px; /* Slightly smaller text */
+    }
+
+    .sidebar-table th, .sidebar-table td {
+        padding: 6px;
+    }
+
+    /* Content section should take full width */
+    .content {
+        width: 100%;
+        padding: 10px;
+    }
+
+    /* Search filter stacked for better view */
+    .search-filter {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .search-filter input, .search-filter select {
+        width: 100%;
+    }
+}
+
+
+/* Footer styles */
+.footer {
+    text-align: center;
+    background-color: #333;
+    color: white;
+}
+
+/* Button styles */
+button {
+    margin: 5px;
+}
+
+/* Link styles */
+a {
+    text-decoration: none;
+}
