@@ -154,7 +154,7 @@ body {
     }
 
     .search-filter input, .search-filter select {
-        width: 100%;
+        width: 90%;
     }
 }
 
